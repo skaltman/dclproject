@@ -80,8 +80,8 @@ make_project <- function(path, ...) {
   }
 
   file.create(path = "scripts/template.R", showWarnings = FALSE)
-  writeLines(text = script_template, con = "scripts/template.R")
+  #writeLines(text = script_template, con = "scripts/template.R")
 
   file.create(path = "Makefile", showWarnings = FALSE)
-  writeLines(text = makefile_template, con = "Makefile")
+  #writeLines(text = makefile_template, con = "Makefile")
 }
