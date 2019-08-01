@@ -1,14 +1,2 @@
 Binding: make_project
 Title: DCL Project Workflow
-
-Parameter: script_template
-Widget: CheckboxInput
-Label: Add script template
-Default: On
-Position: left
-
-Parameter: makefile
-Widget: CheckboxInput
-Label: Add makefile
-Default: On
-Position: left
