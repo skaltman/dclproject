@@ -1,0 +1,13 @@
+Package: dclproject
+Title: DCL Project Template
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Sara",
+           family = "Altman",
+           role = c("aut", "cre"),
+           email = "skaltman@stanford.edu")
+Description: A template for the DCL project workflow 
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
