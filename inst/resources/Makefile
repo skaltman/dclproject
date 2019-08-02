@@ -1,6 +1,6 @@
 # Search path
 VPATH = data data-raw eda reports scripts
-TESTING
+
 # Processed data files
 data =
 
