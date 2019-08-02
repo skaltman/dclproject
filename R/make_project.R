@@ -20,5 +20,5 @@ make_project <- function(path, ...) {
     )
   }
 
-  file.copy(from = file.path("resources", "Makefile"), to = file.path(path))
+  file.copy(from = system.file("resources/Makefile"), to = file.path(path))
 }
