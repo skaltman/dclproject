@@ -11,6 +11,16 @@
 make_project <- function(path, ...) {
   dir.create(path, recursive = TRUE, showWarnings = FALSE)
 
+  folders <-
+    c(
+      `Raw data` = "data-raw",
+      `Processed data` = "data",
+      `Scripts` = "scripts",
+      `Docs` = "docs",
+      `EDA` = "eda",
+      `Reports` = "reports"
+    )
+
   for (i in 1:length(folders)) {
     dir.create(path = file.path(path, folders[[i]]), showWarnings = FALSE)
     file.create(path = file.path(path, folders[[i]], "README.md"))
