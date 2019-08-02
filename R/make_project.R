@@ -20,5 +20,8 @@ make_project <- function(path, ...) {
     )
   }
 
-  file.copy(from = system.file("resources/Makefile"), to = file.path(path))
+  file.copy(
+    from = system.file("resources/Makefile", package = "dclproject"),
+    to = file.path(path)
+  )
 }
